@@ -1,0 +1,53 @@
+.programmer {
+  margin-top: 269px;
+}
+
+.programmer__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.programmer__title {
+  text-align: center;
+  max-width: 543px;
+  align-self: center;
+}
+
+.programmer__subtitle {
+  max-width: 432px;
+  align-self: center;
+}
+
+.technologies__list {
+  margin-top: 54px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.subtrack__tech:first-child {
+  margin-left: 200px;
+}
+
+.subtrack__tech {
+  margin-right: 25px;
+  width: 181px;
+  height: 230px;
+  background: url("../img/svg/Subtract.svg");
+}
+
+.tech__icon {
+  margin: 24px 0 0 12px;
+  justify-content: center;
+  height: 130px;
+  width: 162px;
+}
+
+.tech__title {
+  margin-top: 16px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=programmer.css.map */

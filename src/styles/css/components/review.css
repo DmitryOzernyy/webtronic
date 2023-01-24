@@ -1,0 +1,107 @@
+.review__title {
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+.review__subtitle {
+  max-width: 212px;
+  margin-bottom: 17px;
+}
+
+.review__subtitle__2 {
+  max-width: 392px;
+}
+
+.review__underblock__photo, .review__underblock__photo__active {
+  min-height: 424px;
+  max-width: 186px;
+  border-radius: 16px;
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 85%, 85% 100%, 0 100%, 0 79%, 0 20%);
+}
+
+.review__underblock__photo__active {
+  min-width: 394px;
+}
+
+.review__block__photo__active, .review__block__photo {
+  height: 422px;
+  min-width: 184px;
+  border-radius: 16px;
+  background-color: black;
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 85%, 85% 100%, 0 100%, 0 79%, 0 20%);
+}
+
+.review__block__photo__active {
+  max-width: 392px;
+}
+
+.review__block__photos, .wrapper__review {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wrapper__review {
+  flex-direction: row;
+  align-items: center;
+}
+
+.review__photo__0 {
+  background: url("../img/review/man_0.jpg") no-repeat;
+}
+
+.review__photo__1 {
+  background: url("../img/review/pre_man_1.jpg") no-repeat;
+}
+
+.review__photo__2 {
+  background: url("../img/review/pre_man_2.jpg") no-repeat;
+}
+
+.review__block__counter__first, .review__block__counter__second {
+  display: inline-block;
+}
+
+.review__block__counter__second {
+  vertical-align: super;
+}
+
+.review__underblock__counter__control__right, .review__underblock__counter__control__left {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.review__underblock__counter__control__left {
+  margin-right: 24px;
+}
+
+.review__underblock__counter__control__right {
+  transform: rotate(180deg);
+}
+
+.review__block__counter__control__right, .review__block__counter__control__left {
+  height: 38px;
+  width: 38px;
+  background: #191e3b;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review__block__counter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review__block__counter {
+  margin-bottom: 16px;
+}
+
+.review__block__counter__control {
+  min-width: 800px;
+}
+
+/*# sourceMappingURL=review.css.map */

@@ -1,0 +1,59 @@
+.intro {
+  min-height: 815px;
+  background: linear-gradient(180deg, rgba(12, 16, 45, 0) -4.71%, #0C102D 97.38%), url("../img/bg-image.jpg") no-repeat;
+  background-size: 100%;
+  background-origin: content-box;
+  mix-blend-mode: normal;
+}
+
+.intro__linear {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.intro__wrapper {
+  padding-top: 187px;
+  max-width: 1191px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: baseline;
+}
+
+.intro__title {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 57px;
+}
+
+.intro__subtitle {
+  align-self: start;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 359px;
+  padding-top: 75px;
+}
+
+.intro__button {
+  max-width: 288px;
+  width: 100%;
+  margin-right: 24px;
+}
+
+.intro__title__2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.intro__title__3 {
+  display: flex;
+  margin-left: 1000px;
+}
+
+/*# sourceMappingURL=intro.css.map */

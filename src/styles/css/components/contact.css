@@ -1,0 +1,60 @@
+.contact__under__block__input {
+  max-width: 493px;
+  max-height: 70px;
+  border-radius: 8px;
+}
+
+.contact__input__name, .contact__input__phone, .contact__input__email {
+  width: 491px;
+  height: 68px;
+  border-radius: 8px;
+  background: #191e3b;
+  padding: 24px;
+  color: #FFFFFF;
+}
+
+input[type=text i] {
+  border: 0;
+}
+
+::placeholder {
+  color: #A2CBFB;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #A2CBFB;
+}
+
+::-ms-input-placeholder {
+  color: #A2CBFB;
+}
+
+.contact__wrapper {
+  width: 100%;
+}
+
+.contact__under__main {
+  width: 100%;
+  min-height: 598px;
+  border-radius: 20px;
+}
+
+.contact__main {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1222px;
+  border-radius: 20px;
+  min-height: 595px;
+  background: #191e3b;
+  padding: 56px 365px;
+}
+
+.contact__btn__send {
+  min-width: 497px;
+}
+
+/*# sourceMappingURL=contact.css.map */
